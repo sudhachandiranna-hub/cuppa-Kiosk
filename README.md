@@ -2,6 +2,10 @@
 
 Single-screen Streamlit kiosk with a Groq-powered AI barista. No multi-page nav, no 10-question wizard — pick a mood and the weather, get one coffee recommendation, watch the cup and brew animate live.
 
+
+<img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/8be1b8ad-a08e-42e9-827b-2db2769134b3" />
+
+
 ## Why Groq, not Ollama
 
 This project folder was originally scoped for Ollama, but Ollama requires a local model server running on the host machine. Streamlit Community Cloud only runs your `app.py` in a shared container — there is no way to run or reach an Ollama server from it. Groq is a hosted, API-key-based LLM service, so it's the only one of the two that actually works once deployed. Locally, swapping back to Ollama would mean replacing the `Groq(...)` client and `chat.completions.create(...)` call in `app.py` with an Ollama client — but it would no longer be deployable to Community Cloud.
