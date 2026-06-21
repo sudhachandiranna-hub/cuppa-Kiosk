@@ -5,6 +5,12 @@ Single-screen Streamlit kiosk with a Groq-powered AI barista. No multi-page nav,
 
 <img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/8be1b8ad-a08e-42e9-827b-2db2769134b3" />
 
+**Grok powered AI assistance for a cafe called cuppa.
+**How to use kiosk
+1. Choose ur coffee or
+2. Use AI barista to give u recommendations based on ur mood and weather
+3. Brew ur ☕ coffee
+4. Pick up ur order
 
 ## Why Groq, not Ollama
 
